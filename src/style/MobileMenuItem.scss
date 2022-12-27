@@ -1,0 +1,9 @@
+.nav {
+  &.fixed-bottom {
+    .nav-link {
+      &.active {
+        color: var(--bs-emphasis-color);
+      }
+    }
+  }
+}
